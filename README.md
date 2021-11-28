@@ -12,7 +12,6 @@
                 color: #f3109d;
                 font-weight: normal;
                 font-size: 1.75em;
-                border-bottom: 20px solid #000;
             }
             h1 strong {
                 font-weight: bold;
@@ -25,7 +24,7 @@
                 color: #f3109d;
                 margin: 0;
                 padding: 0.5em;
-                border-bottom: 20px solid #000;
+                border-bottom: 20px solid #f3109d;
             }
             hr {
                 display: none;
@@ -34,7 +33,7 @@
                 padding: 1em 5em;
             }
             .alert {
-                border: 2px solid #000;
+                border: 2px solid #f3109d;
             }
             /*]]>*/
         </style>
