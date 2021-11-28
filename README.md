@@ -7,19 +7,17 @@
                 background-image: url("docs/4398992.jpg");
             h1 {
                 text-align: center;
-                color:#f3109d;
-                font-weight: normal;
-                font-size: 1.75em;
+                color: blue;
             }
             h1 strong {
                 font-weight: bold;
-                font-size: 1.5em;
+                font-size: 2em;
             }
             h2 {
                 text-align: center;
                 font-size: 1.1em;
                 font-weight: bold;
-                color: #f3109d;
+                color: blue;
                 border-bottom: 20px solid #f3109d;
             }
             .alert {
