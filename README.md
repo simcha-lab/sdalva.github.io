@@ -10,7 +10,6 @@
           }
           h1 strong {
               font-weight: bold;
-              font-size: 2em;
           }
           h2 {
               text-align: center;
