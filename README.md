@@ -10,7 +10,7 @@
                 text-align: center;
                 margin: 0;
                 color: #f3109d;
-                style="color:#f3109d;
+                style=color:#f3109d;
                 font-weight: normal;
                 font-size: 1.75em;
             }
