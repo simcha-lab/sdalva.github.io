@@ -4,7 +4,6 @@
         <style type="text/css">
             /*<![CDATA[*/
             body {
-                background-color: #cccccc;
                 background-image: url("docs/4398992.jpg");
             h1 {
                 text-align: center;
@@ -46,7 +45,7 @@
             <div class="alert">
                 <h2>This is my first HTML site!</h2>
                 <div class="content">
-                    <p>As you can see here we have some rare photoes of <strong>Maxim Brain</strong>.</p>
+                    <p>BLABLABLA <strong>WHOOOHOOOOO</strong>.</p>
                 </div>
             </div>
         </div>
