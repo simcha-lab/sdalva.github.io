@@ -30,7 +30,7 @@
                 color: #020202;
                 font-weight: normal;
                 font-size: 1.75em;
-                border-bottom: 2px solid #000;
+                border-bottom: 10px solid #000;
             }
             h1 strong {
                 font-weight: bold;
