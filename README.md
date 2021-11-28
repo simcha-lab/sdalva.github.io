@@ -20,12 +20,7 @@
                 font-size: 1.1em;
                 font-weight: bold;
                 color: #f3109d;
-                margin: 0;
-                padding: 0.5em;
                 border-bottom: 20px solid #f3109d;
-            }
-            .content {
-                padding: 1em 5em;
             }
             .alert {
                 border: 2px solid #f3109d;
