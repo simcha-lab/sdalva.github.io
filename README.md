@@ -55,19 +55,6 @@
             .alert {
                 border: 2px solid #000;
             }
-
-            img {
-                border: 10px solid #fff;
-                padding: 10px;
-                margin: 10px;
-            }
-            a:hover img {
-                border: 2px solid #294172;
-            }
-            .logos {
-                margin: 1em;
-                text-align: center;
-            }
             /*]]>*/
         </style>
     </head>
