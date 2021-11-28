@@ -1,6 +1,5 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
     <head>
-        <title>Test Page for the Nginx HTTP Server on Red Hat Enterprise Linux</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <style type="text/css">
             /*<![CDATA[*/
@@ -10,9 +9,7 @@
             h1 {
                 text-align: center;
                 margin: 0;
-                padding: 0.6em 2em 0.4em;
-                background-color: #f3109d;
-                color: #020202;
+                color:  #f3109d;
                 font-weight: normal;
                 font-size: 1.75em;
                 border-bottom: 20px solid #000;
