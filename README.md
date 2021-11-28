@@ -73,7 +73,7 @@
     </head>
 
     <body>
-        <h1>Welcome to <strong>Simcha NGNIX Page</strong> on Red Hat Enterprise Linux!</h1>
+        <h1>Welcome to <strong>Simcha test Page</strong> on GitHub!</h1>
 
 <!--        <div class="content">
             <p><strong>WELCOME</strong>
