@@ -18,10 +18,6 @@
                 font-size: 1.1em;
                 font-weight: bold;
                 color: blue;
-                border-bottom: 20px solid #f3109d;
-            }
-            .alert {
-                border: 2px solid #f3109d;
             }
             /*]]>*/
         </style>
