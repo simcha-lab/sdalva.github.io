@@ -22,6 +22,8 @@
             /*]]>*/
         </style>
     </head>
+    
+     <body>
         <h1>Welcome to <strong>Simcha test Page</strong> on GitHub!</h1>
     </body>
 </html>
