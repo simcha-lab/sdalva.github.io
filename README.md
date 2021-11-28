@@ -11,11 +11,11 @@
                 font-size: 0.9em;
                 font-family: sans-serif,helvetica;
                 margin: 0;
-                padding: 0; -->
+                padding: 0;
             }
             :link {
                 color: #c00;
-            }
+            } -->
             :visited {
                 color: #c00;
             }
