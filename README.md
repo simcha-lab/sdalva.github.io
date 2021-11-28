@@ -44,7 +44,7 @@
     <body>
         <h1>Welcome to <strong>Simcha test Page</strong> on GitHub!</h1>
 
-<!--        <div class="content">
+           <div class="content">
             <p><strong>WELCOME</strong>
             </p>
 
@@ -56,17 +56,6 @@
                   <a> <img src="index2.jpg"<img <a> <img src="index3.png"<img</p>
                 </div>
             </div>
-
-           <div class="logos">
-                <a href="http://nginx.net/"><img
-                    src="images.png"
-                    alt="[ Powered by nginx ]"
-                    width="121" height="32" /></a>
-                <a href="http://www.redhat.com/"><img
-                    src="images.png"
-                    alt="[ Powered by Red Hat Enterprise Linux ]"
-                    width="88" height="60" /></a>
-            </div>
-        </div> -->
+        </div>
     </body>
 </html>
