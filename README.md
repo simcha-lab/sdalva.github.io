@@ -48,7 +48,7 @@
             </p>
 
             <div class="alert">
-                <h2>Website Administrator</h2>
+                <h2>This is my first HTML site!</h2>
                 <div class="content">
                     <p>As you can see here we have some rare photoes of <strong>Maxim Brain</strong>.</p>
                 </div>
