@@ -7,8 +7,7 @@
                 background-image: url("docs/4398992.jpg");
             h1 {
                 text-align: center;
-                margin: 0;
-                color: #f3109d;
+                color:#f3109d;
                 font-weight: normal;
                 font-size: 1.75em;
             }
