@@ -22,15 +22,6 @@
             /*]]>*/
         </style>
     </head>
-
-    <body>
         <h1>Welcome to <strong>Simcha test Page</strong> on GitHub!</h1>
-
-            <div class="alert">
-                <h2>This is my first HTML site!</h2>
-                <div class="content">
-                    <p>BLABLABLA <strong>WHOOOHOOOOO</strong>.</p>
-            </div>
-        </div>
     </body>
 </html>
