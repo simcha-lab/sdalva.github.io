@@ -32,10 +32,6 @@
     <body>
         <h1>Welcome to <strong>Simcha test Page</strong> on GitHub!</h1>
 
-           <div class="content">
-            <p><strong>WELCOME</strong>
-            </p>
-
             <div class="alert">
                 <h2>This is my first HTML site!</h2>
                 <div class="content">
