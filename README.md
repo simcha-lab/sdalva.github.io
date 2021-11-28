@@ -13,15 +13,15 @@
                 margin: 0;
                 padding: 0;
             }
-            :link {
+            :link { 
                 color: #c00;
-            } -->
+            } 
             :visited {
                 color: #c00;
             }
             a:hover {
                 color: #f50;
-            }
+            } -->
             h1 {
                 text-align: center;
                 margin: 0;
