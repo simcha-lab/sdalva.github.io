@@ -7,21 +7,6 @@
             body {
                 background-color: #cccccc;
                 background-image: url("docs/4398992.jpg");
-            <!--    color: #020202;
-                font-size: 0.9em;
-                font-family: sans-serif,helvetica;
-                margin: 0;
-                padding: 0;
-            }
-            :link { 
-                color: #c00;
-            } 
-            :visited {
-                color: #c00;
-            }
-            a:hover {
-                color: #f50;
-            } -->
             h1 {
                 text-align: center;
                 margin: 0;
@@ -30,7 +15,7 @@
                 color: #020202;
                 font-weight: normal;
                 font-size: 1.75em;
-                border-bottom: 10px solid #000;
+                border-bottom: 20px solid #000;
             }
             h1 strong {
                 font-weight: bold;
@@ -44,7 +29,7 @@
                 color: #020202;
                 margin: 0;
                 padding: 0.5em;
-                border-bottom: 2px solid #000;
+                border-bottom: 20px solid #000;
             }
             hr {
                 display: none;
