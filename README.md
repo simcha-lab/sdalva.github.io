@@ -61,7 +61,7 @@
     </head>
 
     <body>
-        <h1>Welcome to <strong>Simcha test Page</strong> on GitHub!</h1>
+        <h1>Welcome to <strong>Simcha testcccc Page</strong> on GitHub!</h1>
 
 <!--        <div class="content">
             <p><strong>WELCOME</strong>
