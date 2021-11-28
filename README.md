@@ -30,7 +30,6 @@
                 <h2>This is my first HTML site!</h2>
                 <div class="content">
                     <p>BLABLABLA <strong>WHOOOHOOOOO</strong>.</p>
-                </div>
             </div>
         </div>
     </body>
