@@ -6,7 +6,7 @@
             /*<![CDATA[*/
             body {
                 background-color: #cccccc;
-                background-image: url("/docs/4398992.jpg");
+                background-image: url("docs/4398992.jpg");
             <!--    color: #020202;
                 font-size: 0.9em;
                 font-family: sans-serif,helvetica;
