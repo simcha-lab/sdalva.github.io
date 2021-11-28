@@ -9,7 +9,7 @@
             h1 {
                 text-align: center;
                 margin: 0;
-                color:  #f3109d;
+                color: #f3109d;
                 font-weight: normal;
                 font-size: 1.75em;
                 border-bottom: 20px solid #000;
@@ -20,10 +20,9 @@
             }
             h2 {
                 text-align: center;
-                background-color: #f3109d;
                 font-size: 1.1em;
                 font-weight: bold;
-                color: #020202;
+                color: #f3109d;
                 margin: 0;
                 padding: 0.5em;
                 border-bottom: 20px solid #000;
