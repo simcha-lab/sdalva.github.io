@@ -10,7 +10,6 @@
                 text-align: center;
                 margin: 0;
                 color: #f3109d;
-                style=color:#f3109d;
                 font-weight: normal;
                 font-size: 1.75em;
             }
@@ -26,9 +25,6 @@
                 margin: 0;
                 padding: 0.5em;
                 border-bottom: 20px solid #f3109d;
-            }
-            hr {
-                display: none;
             }
             .content {
                 padding: 1em 5em;
