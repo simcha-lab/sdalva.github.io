@@ -52,8 +52,6 @@
                 <h2>Website Administrator</h2>
                 <div class="content">
                     <p>As you can see here we have some rare photoes of <strong>Maxim Brain</strong>.</p>
-
-                  <a> <img src="index2.jpg"<img <a> <img src="index3.png"<img</p>
                 </div>
             </div>
         </div>
