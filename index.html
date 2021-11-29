@@ -13,7 +13,15 @@
 }
 body,html {
   height: 100%;
-  background-image: url("docs/images/Backround.jpg");
+/*   background-image: url("docs/images/Backround.jpg"); */
+}
+.parallax {
+  background-image: url('docs/images/Backround.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   text-align: center;
@@ -82,6 +90,9 @@ img {
 </head>
 
 <body>
+
+<div class="parallax"></div>
+  
 <h1>Welcome to the page of <strong> Anime lovers !</strong></h1>
  <div class="center">
    <h2>In this page i will name you my<strong> best 10</strong> Anime series!</h2>
@@ -92,5 +103,7 @@ img {
 <img src="docs/images/sword_art_online.gif" alt="img">
 <h5>The third series in my list is <strong>Sword art online</strong></h5>
 <img src="docs/images/code_geass.gif" alt="img">
+  
+<div class="parallax"></div>
 </body>
 </html>
