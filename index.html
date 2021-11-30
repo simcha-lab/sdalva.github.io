@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <title>מדריכים | Quality Bytes</title>
+
 <style>
+*{
+  font-family:sans-serif;
+}
 body, html {
   height: 100%;
   background-image: url("docs/images/first_background.jpg");
@@ -34,9 +38,13 @@ li a {
   padding: 10px;
 }
 img {
-  position:fixed;
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+  transition: 0.5s;
+/*   position:fixed;
   top:0;
-  left:0; 
+  left:0;  */
 }
 h1 {
   text-align: center;
@@ -65,5 +73,15 @@ h1 strong {
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
+ 
+<script type ="text/javascript">
+  Let image = document.getElementById('image')
+  Let image = ['docs/images/first_background.jpg','docs/images/first_background.jpg','docs/images/first_background.jpg']
+  setInterval(function(){
+      Let random = Math.floor(Math.random() * 3);
+      img.src = images[random];
+  }, 800);
+
+</script>  
 </body>
 </html>
