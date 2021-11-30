@@ -6,9 +6,17 @@
 <style>
 html {
   height: 100%;
-  background-image: url("docs/images/first_background.jpg");
+/*   background-image: url("docs/images/first_background.jpg");
   background-attachment: fixed;
+  background-repeat: no-repeat; */
+}
+.parallax {
+  background-image: url("docs/images/first_background.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 ul {
   list-style-type: none;
@@ -50,7 +58,13 @@ h1 strong {
   <img src='docs/images/qb-logo.png' alt='Official logo' style="width:150px;height:110px;"> 
 </a>
 
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:red;font-size:36px">
 <h1><strong> ברוך הבא לעמוד ההדרכות של Quality Bytes</strong></h1>
+</div>
+
+<div class="parallax"></div>  
  
 <ul>
   <li><a href="https://www.q-bytes.com/he">Home</a></li>
