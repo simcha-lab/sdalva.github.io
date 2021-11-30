@@ -1,0 +1,12 @@
+*{
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+}
+img{
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+  transition: 0.3s;
+}
