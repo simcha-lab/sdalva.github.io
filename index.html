@@ -6,10 +6,54 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
 <style>
-    .slides { width: 50%; }
+    .slides { width: 50%; height: 50%; }
     .slides-hidden { display : none; }
+h2 {
+  text-align: center;
+  margin: 0px 1px;
+  padding: 10px;
+  color: #f17b00;
+  font-weight: normal;
+  font-size: 3em;
+}
+h2 strong {
+  font-weight: bold;
+}
+html {
+  height: 100%;
+  background-image: url("docs/images/first_background.jpg");
+  background-color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+  font-size: 0.5em;
+}
+
+li a {
+  display: inline;
+  padding: 8px;
+  background-color: white;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 3px ;
+  padding: 10px;
+}
 </style>
 
+</head>
+<body>
+<h1><strong>ברוך הבא לעמוד ההדרכות של Quality Bytes</strong></h1>
 <script>
     addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
         var index = 0;
