@@ -5,64 +5,30 @@
   <title>מדריכים | Quality Bytes</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 
-<!-- <style>
-h2 {
-  text-align: center;
-  margin: 0px 1px;
-  padding: 10px;
-  color: #f17b00;
-  font-weight: normal;
-  font-size: 3em;
-}
-h2 strong {
-  font-weight: bold;
-}
-html {
-  height: 100%;
-  background-image: url("docs/images/first_background.jpg");
-  background-color: white;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-li {
-  float: left;
-  font-size: 0.5em;
-}
+<style>
+    .slides { width: 100%; }
+    .slides-hidden { display : none; }
+</style>
 
-li a {
-  display: inline;
-  padding: 8px;
-  background-color: white;
-}
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: 3px ;
-  padding: 10px;
-}
+<script>
+    addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
+        var index = 0;
+        const slides = document.querySelectorAll(".slides");
+        const classHide = "slides-hidden", count = slides.length;
+        nextSlide();
+        function nextSlide() {
+            slides[(index ++) % count].classList.add(classHide);
+            slides[index % count].classList.remove(classHide);
+            setTimeout(nextSlide, 3000);
+        }
+    });
+</script>
 
-</style> -->
+<section>
+    <img class="slides slides-hidden" src="image1.jpg">
+    <img class="slides slides-hidden" src="image1.jpg">
+    <img class="slides slides-hidden" src="image1.jpg">
+</section>
 
-</head>
-<body>
-  
-<h1><strong>ברוך הבא לעמוד ההדרכות של Quality Bytes</strong></h1>
-<img src="image1.jpg" id="image">
-
-<script type="text/javascript">
-  Let image = document.getElementById('image');
-  Let images = ['image1.jpg','image1.jpg','image1.jpg']
-  setInterval(function(){
-      Let random = Math.floor(Math.random() * 3);
-      image.src = images[random];
-  }, 800);
-</script>  
 </body>
 </html>
