@@ -1,88 +1,28 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="utf-8" />
   <title>מדריכים | Quality Bytes</title>
-<!--   <link rel="stylesheet" type="text/css" href="style.css">
- -->
-<style>
-    .slides { width:100%; height: 20%; }
-    .slides-hidden { display : none; }
-h1 {
-  text-align: center;
-  margin: 0px 1px;
-  padding: 10px;
-  color: #f17b00;
-  font-weight: normal;
-  font-size: 3em;
-}
-h1 strong {
-  font-weight: bold;
-}
-html {
-  height: 100%;
-/*   background-image: url("docs/images/first_background.jpg"); */
-  background-color: white;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-li {
-  float: left;
-  font-size: 0.5em;
-}
-
-li a {
-  display: inline;
-  padding: 8px;
-  background-color: white;
-}
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: 3px ;
-  padding: 10px;
-}
-</style>
-
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Arimo" />
+  <link rel="stylesheet" media="all" href="fonts.googleapis.com/css?family=Arimo|Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;amp;subset=all" />
 </head>
 <body>
+
 <a href='https://www.q-bytes.com/'> 
-   <img src='docs/images/qb-logo.png' alt='Official logo' style="width:150px;height:80px;"> 
+   <img src='qb-logo.png' alt='Official logo' style="width:110px;height:70px;"> 
 </a>
 
-<h1><strong>ברוך הבא לעמוד ההדרכות של Quality Bytes</strong></h1>
-<script>
-    addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
-        var index = 0;
-        const slides = document.querySelectorAll(".slides");
-        const classHide = "slides-hidden", count = slides.length;
-        nextSlide();
-        function nextSlide() {
-            slides[(index ++) % count].classList.add(classHide);
-            slides[index % count].classList.remove(classHide);
-            setTimeout(nextSlide, 3000);
-        }
-    });
-</script>
+<p class="hidden">A hidden border.</p>
+<div class="parallax">
+  <h1>הגדרת שלוחה ב Zoiper</h1>
+  <img class="zoiper-img-center" src="zoiper_img1.jpg" alt="zoiper_img1"/> 
+  <img class="zoiper-img-center" src="zoiper_img2.jpg" alt="zoiper_img1"/> 
+  <img class="zoiper-img-center" src="zoiper_img3.jpg" alt="zoiper_img1"/> 
+  <img class="zoiper-img-center" src="zoiper_img4.jpg" alt="zoiper_img1"/> 
 
- <ul>
-   <li><a href="https://www.q-bytes.com/he">Home</a></li>
-   <li><a href="#news">News</a></li>
-   <li><a href="#contact">Contact</a></li>
-   <li><a href="#about">About</a></li>
- </ul>
-
-<section>
-    <img class="slides slides-hidden" src="docs/images/first_background.jpg">
-    <img class="slides slides-hidden" src="docs/images/background2.jpg">
-</section>
-
+</div>
+<div style="background-image:url('https://www.q-bytes.com/sites/default/files/white-background-services_0.jpg');">
+</div>
+ 
 </body>
 </html>
