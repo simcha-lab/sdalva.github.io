@@ -32,10 +32,10 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('bg2.jpg');
+  background-image: url('bg4.jpg');
   background-size: cover;
   background-position: fixed;
-  color: black;
+  color: white;
 }
 
 header section {
@@ -54,11 +54,17 @@ h1 {
 }
 
 h3 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-size:35px
 }
 
 h3, h4 {
   font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
+  font-size:20px
 }
 
 main {
@@ -92,7 +98,7 @@ a .fab {
 }
 
 .course .title {
-  color: #509e98;
+  color: #12c9f7 ;
   -ms-flex: 0 0 33.3%;
   flex: 0 0 33.3%;
   max-width: 33%;
@@ -121,7 +127,7 @@ a .fab {
 .skills .column ul > li:before {
   content: "►";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #12c9f7;
 }
 
 .school, .job-title {
