@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
   margin: 0;
-  font-family: 'Raleway';
+  font-family: 'Montserrat';
   font-size: 16px;
   line-height: 1.8em;
 }
@@ -30,7 +30,7 @@ header, main, footer {
 }
 
 header {
-  padding: 2em;
+  padding: 5em;
   text-align: center;
   background-image: url('bg5.jpg');
   background-size: cover;
