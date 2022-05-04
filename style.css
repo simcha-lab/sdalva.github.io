@@ -130,14 +130,15 @@ a .fab {
   color: #12c9f7;
 }
 
-.school, .job-title {
+.college, .job-title {
   text-transform: capitalize;
 }
 
-.school span, .job-title span {
-  color: #889499;
+/* .college span, .job-title span {
+  /* color: #889499; */
   text-decoration: underline;
-}
+} */
+
 
 ul.job-description li:before{
   content: "✔";
