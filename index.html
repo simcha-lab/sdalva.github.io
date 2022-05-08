@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>CV - Sdalva</title>
+  <title>Simcha Dalva - CV</title>
   <meta name="description" content="My CV with HTML and CSS">
   <meta name="author" content="Fly Nerd">
   <link rel="icon" href="favicon.ico">
@@ -14,7 +14,7 @@
 <body>
   <header>
     <div>
-      <img src="image.jpg" />
+      <img src="profle_img.jpeg" />
     </div>
     <h1>Simcha Dalva</h1>
     <section>
@@ -59,7 +59,7 @@
           <h4>Virtual Machines</h4>
         </div>
         <div class="descrition">
-          <p>Installation and Administering of Virtual Machines on various. virtualization systems – AWS, Nutanix, Proxmox, Vmware.</p>
+          <p>Installation and Administering of Virtual Machines on various virtualization systems – AWS, Nutanix, Vmware.</p>
         </div>
       </article>
     </section>
@@ -78,7 +78,7 @@
           <h4>Firewall</h4>
         </div>
         <div class="descrition">
-          <p>Operation support and configuration of firewall services from different vendors – Fortigate, Zyxel, Check Point, Linux Based Firewalls(based on iptables), pfSense(freeBSD) .</p>
+          <p>Operation support and configuration of firewall services from different vendors – Fortigate, Zyxel, Linux Based Firewalls(based on iptables), pfSense(freeBSD), OPNsense .</p>
         </div>
       </article>
       <article class='course'>
@@ -86,7 +86,7 @@
           <h4>Mail</h4>
         </div>
         <div class="descrition">
-          <p>Mail servers + Mail filtering servers - Exchange admin center 365, Kolab , end units and cloud-based servers .</p>
+          <p>Mail servers + Mail filtering services - Exchange admin center 365, Kolab and cloud-based servers .</p>
         </div>
       </article>
       <article class='course'>
@@ -114,16 +114,17 @@
         </div>
       </article>
     </section>
-    <section>
+
+    <!-- <section>
       <h3>Skills</h3>
       <div class='skills'>
         <div class='column'>
           <h4>Good knowledge</h4>
           <ul>
-            <li>Linux</li>
-            <li>Pipline</li>
-            <li>MYSQL</li>
-            <li>Docker</li>
+            <li>Linux - controling the CLI commands on various distributions - Ubuntu, CentOS(5-8), Rocky Linux .</li>
+            <li>Jenkins Pipeline - implementing and integrating continuous delivery pipelines into Jenkins using Pipeline language. </li>
+            <li>MYSQL - managing databases based on mysql .</li>
+            <li>Docker - instaling and managing docker and docker-compose containers .</li>
           </ul>
         </div>
         <div class='column'>
@@ -141,8 +142,60 @@
           <p>🇮🇱 Hebrew - Native Speaker</p>
         </div>
       </div>
-    </section>
+    </section> -->
 
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>Good knowledge</h4>
+          <button type="button" class="collapsible">Linux Administration</button>
+          <ul>
+            <li>Ubuntu</li>
+            <li>CentOS 5-8</li>
+            <li>Rocky Linux</li>
+            <li>RedHat</li>
+          </ul>
+          <button type="button" class="collapsible">MYSQL - </button>
+          <ul>
+            <li>Creating and managing databases based on MYSQL</li>
+            <li>MYSQL commands</li>
+          </ul>
+          <button type="button" class="collapsible">Docker/Docker-Compose</button>
+          <ul>
+            <li>Instaling and managing docker and docker-compose containers</li>
+            <li>Apache Guacamole</li>
+            <li>Portainer</li>
+            <li>Mysql</li>
+            <li>Rocket-chat</li>
+            <li>Nginx </li>
+          </ul>
+          <button type="button" class="collapsible">Jenkins</button>
+          <ul>
+            <li>Installing jenkins on various distributions including docker</li>
+            <li>Pipeline - Implementing and integrating continuous delivery pipelines into Jenkins using Pipeline language</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+      </div>
+      
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+    </section>
     <section>
       <h3>Education</h3>
       <article>
