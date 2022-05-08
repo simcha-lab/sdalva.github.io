@@ -104,6 +104,15 @@ a .fab {
   max-width: 33%;
 }
 
+.link:before {
+  color: #25d2d8 ;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 50%;
+  content: "\1F517";
+  padding-right: 0.5em;
+}
+
 .course .descrition {
   -ms-flex: 0 0 66.6%;
   flex: 0 0 66.6%;
@@ -164,8 +173,9 @@ a .fab {
   font-weight: bold;
 }
 
-.college, .job-title {
+.college strong{
   text-transform: capitalize;
+  color: #25d2d8;
 }
 
 ul.job-description li:before{
