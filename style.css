@@ -122,6 +122,8 @@ a .fab {
 
 .skills .column ul, ul.job-description {
   list-style-type: none;
+  display: none;
+  overflow: hidden;
 }
 
 .skills .column ul > li:before {
