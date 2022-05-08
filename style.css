@@ -115,9 +115,9 @@ a .fab {
 }
 
 .skills .column {
-  -ms-flex: 0 0 50%%;
-  flex: 0 0 50%;
-  max-width: 50%;
+  -ms-flex: 0 0 100%%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
 .skills .column ul, ul.job-description {
@@ -125,20 +125,46 @@ a .fab {
 }
 
 .skills .column ul > li:before {
-  content: "►";
+  content: "✔";
   padding-right: 0.5em;
   color: #12c9f7;
+}
+
+.collapsible  {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size:16px;
+  color: #12c9f7;
+  font-weight: bold;
+}
+
+.collapsible:before  {
+  content: "+";
+  padding-right: 0.5em;
+  color: black;
+  font-size:16px;
+  font-weight: bold;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+}
+
+.active:before {
+  content: "-";
+  color: black;
+  font-size:16px;
+  font-weight: bold;
 }
 
 .college, .job-title {
   text-transform: capitalize;
 }
-
-/* .college span, .job-title span {
-  /* color: #889499; */
-  text-decoration: underline;
-} */
-
 
 ul.job-description li:before{
   content: "✔";
