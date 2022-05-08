@@ -3,7 +3,6 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <style type="text/css">
           body {
-              background-image: url("docs/4398992.jpg");
           h1 {
               text-align: center;
               color: blue;
