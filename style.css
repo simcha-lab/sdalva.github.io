@@ -33,7 +33,7 @@ header {
   padding: 4em;
   text-align: center;
   background-image: url('bg3.jpg');
-  background-size: cover;
+  background-size: 80%;
   background-position: fixed;
   color: white;
 }
@@ -98,7 +98,7 @@ a .fab {
 }
 
 .course .title {
-  color: #097209 ;
+  color: #25d2d8 ;
   -ms-flex: 0 0 33.3%;
   flex: 0 0 33.3%;
   max-width: 33%;
@@ -129,7 +129,7 @@ a .fab {
 .skills .column ul > li:before {
   content: "✔";
   padding-right: 0.5em;
-  color: #097209;
+  color: #25d2d8;
 }
 
 .collapsible  {
@@ -141,7 +141,7 @@ a .fab {
   text-align: left;
   outline: none;
   font-size:16px;
-  color: #097209;
+  color: #25d2d8;
   font-weight: bold;
 }
 
@@ -171,7 +171,7 @@ a .fab {
 ul.job-description li:before{
   content: "✔";
   padding-right: 0.5em;
-  color: #19ff19;
+  color: #25d2d8;
 }
 
 footer {
