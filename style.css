@@ -30,7 +30,7 @@ header, main, footer {
 }
 
 header {
-  padding: 3em;
+  padding: 4em;
   text-align: center;
   background-image: url('bg3.jpg');
   background-size: cover;
