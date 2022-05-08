@@ -1,6 +1,6 @@
 <html>
 <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <style type="text/css">
           body {
           h1 {
@@ -17,7 +17,7 @@
               color: blue;
           }
       </style>
-  </head>
+</head>
     
    <body>
       <h1>Welcome to <strong>Simcha Dalva CV on GITHUB!</strong> on GitHub!</h1>
