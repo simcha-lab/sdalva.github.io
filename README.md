@@ -1,4 +1,3 @@
-<!-- <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <style type="text/css">
@@ -20,7 +19,6 @@
   </head>
     
    <body>
-      <h1>Welcome to <strong>Simcha test Page</strong> on GitHub!</h1>
+      <h1>Welcome to <strong>Simcha Dalva CV on GITHUB!</strong> on GitHub!</h1>
   </body>
 </html>
- -->
