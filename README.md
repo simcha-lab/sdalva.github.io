@@ -1,6 +1,5 @@
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <body>
   h1 {
   text-align: center;
@@ -10,8 +9,7 @@
   font-weight: bold;
   }
 </head>
-    
-   <body>
-      <h1>Welcome to <strong>Simcha Dalva CV on GITHUB!</strong> on GitHub!</h1>
+  <body>
+    <h1>Welcome to <strong>Simcha Dalva CV on GITHUB!</strong> on GitHub!</h1>
   </body>
 </html>
