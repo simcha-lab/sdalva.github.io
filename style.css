@@ -126,10 +126,10 @@ a .fab {
 .skills .column {
   -ms-flex: 0 0 100%%;
   flex: 0 0 100%;
-  max-width: 100%;
+  max-width: 60%;
 }
 
-.skills .column ul, ul.job-description {
+.skills .column ul {
   list-style-type: none;
   display: none;
   overflow: hidden;
