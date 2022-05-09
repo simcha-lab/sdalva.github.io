@@ -51,6 +51,7 @@ header img {
 h1 {
   text-transform: uppercase;
   margin: 1em 0;
+  color: #25d2d8;
 }
 
 h3 {
@@ -87,7 +88,22 @@ main section:not(:last-child) {
 }
 
 a .fab {
-  color: white;
+  color: #25d2d8;
+}
+
+.material-icons {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.3em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .material-icons {
+  color: #25d2d8;
 }
 
 .course, .skills {
