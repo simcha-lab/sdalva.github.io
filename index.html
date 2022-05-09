@@ -149,53 +149,68 @@
       <div class='skills'>
         <div class='column'>
           <h4>Good knowledge</h4>
-          <button type="button" class="collapsible">Linux Administration</button>
+          <button type="button" class='collapsible'>Docker/Docker-Compose Containers</button>
           <ul>
-            <li>Ubuntu</li>
-            <li>CentOS 5-8</li>
-            <li>Rocky Linux</li>
-            <li>RedHat</li>
-          </ul>
-          <button type="button" class="collapsible">SQL</button>
-          <ul>
-            <li>Creating and managing databases based on MYSQL,MomgoDB ..</li>
-            <li>SQL commands</li>
-          </ul>
-          <button type="button" class="collapsible">Docker/Docker-Compose</button>
-          <ul>
-            <li>Instaling and managing docker and docker-compose containers</li>
             <li>Apache Guacamole</li>
             <li>Portainer</li>
             <li>Mysql</li>
+            <li>MongoDB</li>
             <li>Rocket-chat</li>
-            <li>Nginx </li>
+            <li>Nginx</li>
           </ul>
-          <button type="button" class="collapsible">Jenkins</button>
+          <button type="button" class='collapsible'>Linux Administration</button>
           <ul>
+            <li>Rocky Linux</li>
+            <li>CentOS 5-8</li>
+            <li>Ubuntu</li>
+            <li>RedHat</li>
+          </ul>
+          <button type="button" class='collapsible'>SQL</button>
+          <ul>
+            <li>SQL commands</li>
+            <li>Creating, managing databases based on MYSQL, MongoDB</li>
+          </ul>
+          <button type="button" class='collapsible'>Jenkins</button>
+          <ul>
+            <li>Git/GitHub</li>
             <li>Installing jenkins on various distributions including docker</li>
-            <li>Pipeline - Implementing and integrating continuous delivery pipelines into Jenkins using Pipeline language</li>
-            <li>GitHub</li>
+            <li>Writing in pipeline/bash to deploy jobs</li>
+          </ul>
+
+          <script>
+            var coll = document.getElementsByClassName('collapsible');
+            var i;
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
+        </div>
+
+        <div class='title'>
+          <h4>Basic knowledge</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>PHP</li>
           </ul>
         </div>
+        <div class='title'>
+          <h4>Languages</h4>
+          <p>🇬🇧 English - Full Proffesional Proficiency</p>
+          <p>🇮🇱 Hebrew - Native Speaker</p>
+        </div>
       </div>
-      
-      <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
-        }
-        </script>
     </section>
+    
     <section>
       <h3>Certifications & Courses</h3>
       <article class='course'>
