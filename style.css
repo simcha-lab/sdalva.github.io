@@ -30,11 +30,14 @@ header, main, footer {
 }
 
 header {
-  padding: 4em;
+  padding: 3em;
   text-align: center;
   background-image: url('bg3.jpg');
-  background-size: 80%;
-  background-position: fixed;
+  background-size: 90%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 
@@ -50,8 +53,17 @@ header img {
 
 h1 {
   text-transform: uppercase;
-  margin: 1em 0;
+  margin: 0.5em 0;
+  padding-bottom: 0em;
   color: #25d2d8;
+}
+
+h6 {
+  text-transform: uppercase;
+  text-align: center ;
+  color: #25d2d8;
+  padding-top: 0em;
+  font-size: 15px;
 }
 
 h3 {
@@ -206,6 +218,7 @@ footer {
  color: white;
  text-align: right;
 }
+
 
 @media only screen and (max-width: 768px) {
   .course {
