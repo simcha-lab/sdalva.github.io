@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sdalva CV</title>
+  <meta name="description" content="My CV with HTML and CSS">
+  <meta name="author" content="Fly Nerd">
+  <link rel="icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <!-- <div>
+      <img src="profle_img.jpeg" />
+    </div> -->
+    <h1>Simcha Dalva</h1>
+    <section>
+      <h6>So why me?</h6>
+      <p>Before you dive into my resume, I want you to know that I have a lot of technical knowledge. I am very responsible, highly motivated and hardworking. I acquired strong work ethic skills, with the ability to work in stressful situations. Fast learner, good team worker, has high leadership and interpersonal communication skills and gives my 110% effort to be the best for you .</p>
+      <a href="https://www.facebook.com/profile.php?id=100014907525912" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://github.com/simcha-lab/sdalva.github.io" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      <a href="https://www.instagram.com/simcha_dalva/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/simcha-dalva-9a389a239/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://www.instagram.com/simcha_dalva/" target="_blank">
+        <i class="material-icons">mail_outline</i>
+      </a>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h3>Bank Discount: August 2022 - Present</h3>
+      <article class='course'>
+      <h5>Unix/Linux System Administartion 2022 - Present</h5>
+      <article class='course'>
+        <div class='title'>
+          <h4>Redhat Servers</h4>
+        </div>
+        <div class="descrition">
+          <p>Proffesional experience, Installing security updates, Managing virtual volumes (LV), providing 24/7 support for a variety of bank applications, managing user permissions using Unab and Etrust CA Manager .</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Redhat Satellite</h4>
+        </div>
+        <div class="descrition">
+          <p>   Manage server repos with different content views with dependencies on different redhat releases, enviroment, and apps .</p>
+        </div>
+      </article>
+          <article class='course'>
+        <div class='title'>
+          <h4>Ansible Platform</h4>
+        </div>
+        <div class="descrition">
+          <p>Proffesional experience on using ansible as configuration management tool to automate creating linux servers, including API to another applicatins such as Zabbix(monitoring),vRealize .</p>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Quality Bytes: October 2018 - August 2022</h3>
+      <article class='course'>
+      <h5>Junior DevOps Engineer 2020-2022</h5>
+      <article class='course'>
+        <div class='title'>
+          <h4>Docker/Docker-Compose</h4>
+        </div>
+        <div class="descrition">
+          <p>Installing creating and managing Docker and Docker-compose containers such as – Apache Guacamole, Portainer, Mysql, Rocket-chat, Nginx .</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Virtual Machines</h4>
+        </div>
+        <div class="descrition">
+          <p>Installation and Administering of Virtual Machines on various virtualization systems – AWS, Nutanix, Vmware.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Jenkins</h4>
+        </div>
+        <div class="descrition">
+          <p>Installing jenkins on various distribution systems including docker. Building tools and proccess around CI/CD pipelines using integrations with Jenkins, github .</p>        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Ansible</h4>
+        </div>
+        <div class="descrition">
+          <p>Hands-on experience on installing and using ansible as configuration management tool on linux servers to automate repetitive tasks.</p>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h5>Information Systems & Information Security 2018-2020</h5>
+      <article class='course'>
+        <div class='title'>
+          <h4>Firewall</h4>
+        </div>
+        <div class="descrition">
+          <p>Operation support and configuration (rules, routes) of firewall services from different vendors – Fortigate, Zyxel, Linux Based Firewalls(based on iptables), pfSense(freeBSD), OPNsense .Configuring and supporting various services such as SSL-VPN, IPSEC, VLAN, Web filtering, WIFI controller, Policies, Nat, DMZ .</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Voip</h4>
+        </div>
+        <div class="descrition">
+          <p>Voice Over IP services based on Asterisk/PJsip on linux servers. setup and direct work with service providers (Bezeq, Cellcom) Pri, Sip Trunk .</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Mail</h4>
+        </div>
+        <div class="descrition">
+          <p>Mail & mail filtering servers, working with Exchange admin center 365, Kolab Webmin ,cloud-based servers and mail tools (postfix) .</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Linux</h4>
+        </div>
+        <div class="descrition">
+          <p>Ongoing work on linux servers - CentOS 5-8, Rocky Linux, Ubuntu. Controlling the CLI commands, bash scripts and other tools (crontab, tmpwatch, postfix, tcpdump, dns)</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Monitoring</h4>
+        </div>
+        <div class="descrition">
+          <p>Zabbix monitoring server, Packet sniffing and TCP/IP Analysis tools - Wireshark, tcpdump, tracert .</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Network Equipments</h4>
+        </div>
+        <div class="descrition">
+          <p>Configuring and Managing network equipments routers, switches, wireless.. from different vendors such as - Zyxel, Cisco, HP, Fortigate .</p>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>Good knowledge</h4>
+          <button type="button" class='collapsible'>Docker/Docker-Compose Containers</button>
+          <ul>
+            <li>Apache Guacamole</li>
+            <li>Rocket-chat</li>
+            <li>MongoDB</li>
+            <li>Portainer</li>
+            <li>Mysql</li>
+            <li>Nginx</li>
+          </ul>
+          <button type="button" class='collapsible'>Linux Administration</button>
+          <ul>
+            <li>Rocky Linux</li>
+            <li>CentOS 5-8</li>
+            <li>Ubuntu</li>
+            <li>RedHat</li>
+          </ul>
+          <button type="button" class='collapsible'>Ansible playbook</button>
+          <ul>
+            <li>Creating docker containers</li>
+            <li>Configuring services</li>
+            <li>install packages</li>
+            <li>AGI</li>
+          </ul>
+          <button type="button" class='collapsible'>Jenkins</button>
+          <ul>
+            <li>Installing jenkins on various distributions including docker</li>
+            <li>Writing in pipeline/bash to deploy jobs</li>
+          </ul>
+          <button type="button" class='collapsible'>SQL</button>
+          <ul>
+            <li>SQL commands</li>
+            <li>Creating and managing databases based on MYSQL, MongoDB</li>
+          </ul>
+
+          <script>
+            var coll = document.getElementsByClassName('collapsible');
+            var i;
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
+        </div>
+
+        <div class='title'>
+          <h4>Basic knowledge</h4>
+          <ul>
+            <li>Git/GitHUB</li>
+            <li>Kubernetes</li>
+            <li>Terraform</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>Bash</li>
+            <li>CSS</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+        <div class='title'>
+          <h4>Languages</h4>
+          <p>English - Full Proffesional Proficiency</p>
+          <p>Hebrew - Native Speaker</p>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <h3>Certifications & Courses</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4> <a class='link' href="https://www.linkedin.com/learning/certificates/e9bf86337f17d900822892cb31cfb8c83aca98db83be8b9e0c37619c09d6cdf2">Learning Linux Command Line</a> </h4>
+        </div>
+        <div class="descrition">
+          <p>Learning Linux command line from the basics , practical commands with examples that help you navigate through the file and folder structure, edit text, and set permissions , command-line tools, such as grep, awk, and sed, command-line apps such as the nano and Vim text editors, output redirection and the PATH variable, the course wraps up with a look at how to install and update software with a package manager .</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4> <a class='link' href="https://www.linkedin.com/learning/certificates/bd8b5cb508ec2dadb1f93514b056562260d642d8963b488dd74d37b6c187a4a2">Learning Jenkins</a> </h4>
+        </div>
+        <div class="descrition">
+          <p>Jenkins is a key DevOps tool, along with Docker and Git. Instructor Michael Jenkins covers how to set up a personal installation of Jenkins and familiarize yourself with the program’s interface. Next, Michael steps through how to configure your first job in Jenkins. After you get some experience with jobs, he explains the Jenkins plugin environment and how plugins are used to extend the functionality that Jenkins offers. Finally, Michael wraps up with detailed instructions on organizing jobs in folders and views, as well as a brief look into creating pipelines as code .</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Cisco Network Academy: CCNAv7</h4>
+        </div>
+        <div class="descrition">
+          <p>Through that course on CiscoNetAcad i learned to build simple LANs, perform basic configurations for routers and switches, and implement IPv4 and IPv6 addressing schemes. Configure routers, switches, and end devices to provide access to local and remote network resources and to enable end-to-end connectivity between remote devices .</p>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>DevOps Experts College </h4>
+        </div>
+        <div class="descrition">
+          <p>Acquiring knowledge and laboratories in python, Jenkins, API, Git, Docker, Kubernetes, HELM, AWS, Ansible .</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>See Security College (290 academic hours)</h4>
+        </div>
+        <div class="descrition">
+          <p>Network management and information security, Preparation for MCSA, CCNA, CCSA certification and knowledge acquisition in Python, Linux, and laboratories in Vmware.</p>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>What's my goals?</h3>
+      <article>
+        <div class='College'>
+          <span>Looking for my next opportunity to grow and challenge myself! . Wanna learn from the <strong>Bests</strong> , gain more experience and knowledge .</span>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Created by: <a href="https://www.linkedin.com/in/simcha-dalva-9a389a239/">@sdalva</a>  / <a href="https://www.linkedin.com/in/simcha-dalva-9a389a239/">LinkedIn</a> / 2022 </p>
+  </footer>
+</body>
+</html>
